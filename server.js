@@ -93,7 +93,7 @@ app.delete('/api/candidate/:id', (req, res) => {
           changes: result.affectedRows,
           id: req.params.id
         });
-      }
+      } 
     });
 });
 
